@@ -13,7 +13,7 @@
         "128": "Icons/icon128.png"
     },
     "content_scripts": [{
-        "matches": ["<all_urls>"],
+        "matches": ["*://www.fiverr.com/*"],
         "js": ["JS/content.min.js"]
     }]
 }
